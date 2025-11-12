@@ -5,7 +5,6 @@ import heroCoverImage from "@/assets/hero_cover_image.png";
 import productCard from "@/assets/products.png";
 import heroCoverMobile from "@/assets/hero_cover_image_mobile.png";
 import productCardMobile from "@/assets/products_mobile.png";
-// import elevatemycareHeroBackground from "@/assets/elevatemycare_hero_background.png";
 
 const Hero = () => {
   const navigate = useNavigate();
@@ -86,7 +85,7 @@ const Hero = () => {
               <img
                 src={productCard}
                 alt="Product Card"
-                className="w-full max-w-lg h-auto rounded-lg shadow-sm"
+                className="w-full h-41 max-w-lg h-auto rounded-lg shadow-sm"
               />
             </div>
 
@@ -100,7 +99,7 @@ const Hero = () => {
               <img
                 src={heroCoverImage}
                 alt="Hero Cover"
-                className="w-full h-41 object-contain drop-shadow-2xl"
+                className="w-full object-contain drop-shadow-2xl"
               />
             </div>
           </div>
