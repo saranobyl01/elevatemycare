@@ -37,7 +37,7 @@ const TestimonialsSection = () => {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center space-x-2 mb-1">
-                    <h4 className="font-bold text-gray-900">Amy S</h4>
+                    <h4 className="font-bold text-gray-900">Amanda S</h4>
                     <div className="flex">
                       {[...Array(5)].map((_, i) => (
                         <Star key={i} className="w-4 h-4 fill-[#067d8e] text-[#067d8e]" />
@@ -73,7 +73,7 @@ const TestimonialsSection = () => {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center space-x-2 mb-1">
-                    <h4 className="font-bold text-gray-900">Liz Sheridan</h4>
+                    <h4 className="font-bold text-gray-900">Bella Montana</h4>
                     <div className="flex">
                       {[...Array(5)].map((_, i) => (
                         <Star key={i} className="w-4 h-4 fill-[#067d8e] text-[#067d8e]" />
